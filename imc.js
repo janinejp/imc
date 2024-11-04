@@ -18,14 +18,14 @@ function imc(){
             if (imc >= 25 &&  imc < 30 ) this.classificacao = "sobrepeso"
             if (imc >= 30 &&  imc < 35 ) this.classificacao = "obesidade"
             if (imc >= 35 &&  imc < 40 ) this.classificacao = "obesidade Severa"
-            if (imc >= 40 ) this.classificacao = "magreza"
+            if (imc >= 40 ) this.classificação = "magreza"
             return imc.toFixed(2);
         
             
             
-        },
+
         
-    }
+    
     console.log(paciente)
     console.log(paciente.calcularIMC())
     let resposta=document.getElementById('resposta');
